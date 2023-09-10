@@ -1,14 +1,33 @@
-.navigation {
+h1 {
+    float: left;
+}
+
+.header {
     background-color: black;
     overflow: hidden;
 }
 
-.navigation {
+.header {
     float:right;
     color:white;
     text-align: center;
 }
 
-.ul {
+ul {
     list-style-type: none;
+}
+
+li {
+    float:right;
+}
+
+a {
+    display: block;
+}
+
+.hero {
+background-image: url("../images/ice-cream-cones.jpg");
+height: 100%;
+width: 100%;
+background-size: auto;
 }
