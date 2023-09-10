@@ -1,13 +1,26 @@
-h1 {
-    float: left;
+html {
+    box-sizing: border-box;
 }
 
-.header {
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    float: left;   
+}
+
+header {
     background-color: black;
     overflow: hidden;
+    font-size: small;
 }
 
-.header {
+h1 {
     float:right;
     color:white;
     text-align: center;
@@ -19,6 +32,7 @@ ul {
 
 li {
     float:right;
+    padding-left: 1em;
 }
 
 a {
@@ -27,7 +41,22 @@ a {
 
 .hero {
 background-image: url("../images/ice-cream-cones.jpg");
-height: 100%;
-width: 100%;
-background-size: auto;
+height: 1000px;
+background-position: center;
+}
+
+.hero-text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-transform: uppercase;
 }
