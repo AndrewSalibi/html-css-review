@@ -1,0 +1,14 @@
+.navigation {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navigation {
+    float:right;
+    color:white;
+    text-align: center;
+}
+
+.ul {
+    list-style-type: none;
+}
