@@ -8,6 +8,7 @@ html {
 
 body {
     font-family: 'Nunito', sans-serif;
+    max-width: 2000px;
 }
 
 .title {
@@ -24,32 +25,36 @@ h1 {
     float:right;
     color:white;
     text-align: center;
+    padding-left: 100px;
 }
 
-ul {
+nav a {
     list-style-type: none;
+    float:right;
+    color:white;
+    text-align: center;
+    font-size: 15px;
 }
 
-li {
+nav a {
     float:right;
     padding-left: 1em;
-}
-
-a {
-    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 20px;
 }
 
 .hero {
 background-image: url("../images/ice-cream-cones.jpg");
-height: 1000px;
+height: 700px;
 background-position: center;
 }
 
 .hero-text {
-    top: 50%;
+    top: 40%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%);
+    transform: translate(-60%);
     text-align: center;
     font-size: 80px;
 }
@@ -59,4 +64,53 @@ h2 {
     color: white;
     font-family: 'Wix Madefor Display', sans-serif;
     text-transform: uppercase;
+    padding-left: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-left: 200px;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-left: 200px;
+}
+
+h5 {
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-left: 200px;
+}
+
+h7 {
+    padding-left: 200px;
+}
+
+p {
+    padding-left: 200px;
+    max-width: 600px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    text-align: center;
 }
