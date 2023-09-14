@@ -5,6 +5,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
+    margin: 0;
     /* color:#fff; */
 }
 
@@ -12,4 +13,35 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+/*heading - come back to this next class*/
 
+#company-name {
+    color: #dec9e9;
+    font-size: 1.5rem;
+}
+
+#header {
+    background-color: black;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #DEC9E9;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: white;
+}
+
+/* hero banner */
+
+#hero-banner {
+    height: 60vh;
+    background-color: #7251B5;
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
